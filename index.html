@@ -1,23 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exercício cap 15 aula 3</title>
     <style>
-           /* Style all divs */
-           div {
-              color: #333;
-              font-family: Arial, sans-serif;
-           }
-            
+        div{
+            /*  display: inline-block; é usado para fazer com que os elementos div sejam exibidos lado a lado, em vez de cada um ocupar uma linha inteira. */
+            display: inline-block;
+            background-color: lightblue;
+            text-align: center;
+            /* border: 2px solid green; é usado para adicionar uma borda verde de 2 pixels ao redor de cada div. */
+            border: 2px solid green;
+            width: 100px;
+            height: 100px;
+        }
+       
+        /*  : dois pontos sao pseudo-classes, ou seja, são usadas para definir um estado especial de um elemento. No caso do :hover, ele é ativado quando o usuário passa o mouse sobre o elemento. */
+    
+        div:hover{
+            background-color: lightgreen;
+            border-color: red;
         }
 
     </style>
 </head>
 <body>
-    <div>Hello, World!</div>
-    <div>Another div</div>
-    <div>Yet another div</div>
+    <div id="d1">Hello, World!</div>
+    <div id="d2">Another div</div>
+    <div id="d3">Yet another div</div>
 </body>
 </html>
