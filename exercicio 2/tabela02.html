@@ -8,6 +8,13 @@
         body{
             font-family: Arial, Helvetica, sans-serif
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgba(220, 20, 60, 0.535);
+
+        }
         table{
             width: 400px;
             border-collapse: collapse;
@@ -27,15 +34,16 @@
 <body>
     <h1>Uso de Tabelas grandes</h1>
     <table> 
+        <caption>População dos Estados Brasileiros</caption>
         <THEAD> 
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População </th>
             </tr>
         </THEAD>
          <TFOOT> 
             <tr> 
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td><strong>84 698 789</strong></td>
             </tr>
         </TFOOT>
