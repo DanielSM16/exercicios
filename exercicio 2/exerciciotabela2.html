@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border: 1px solid black;
+            border-collapse:collapse;
+        }
+        th, td{
+            border: 1px solid black;
+            width: 100px;
+            height: 50px;
+            text-align: center;
+        }
+    </style>
+    <title>Tabela Favoritos</title>
+</head>
+<body>
+    
+    <table>
+        <caption>
+            <strong>Tabela de Jogos Favoritos</strong>
+        </caption>
+        <THEAD>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="2">Jogos</th>
+            </tr>
+        </THEAD>
+        <TBODY>
+            <tr>
+                <th scope="rowgroup" rowspan="2">Homens</th>
+                <td>Dennis</td>
+                <td>God of War</td>
+                <td>GTA V</td>
+            </tr>
+            <tr>
+                <td>Mateus</td>
+                <td>Free Fire</td>
+                <td>clash of clans</td>
+            </tr>
+             <tr>
+                <th scope="rowgroup" rowspan="2">Mulheres</th>
+                <td>Bruna</td>
+                <td>Free Fire</td>
+                <td>Roblox</td>
+             </tr>
+              <tr>
+                    <td>Celeste</td>
+                    <td>Hollow knight</td>
+                    <td>Katana Zero</td>
+            </tr>
+        </TBODY>
+        <TFOOT>
+            <tr> 
+                <th scope="rowgroup" colspan="3">Total</th>
+                <td>1000</td>
+            </tr>
+        </TFOOT>
+    </table>
+</body>
+</html>
