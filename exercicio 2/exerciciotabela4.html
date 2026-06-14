@@ -16,18 +16,28 @@
             text-align: center;
             padding: 20px;
         }
+        col.Nome{
+            background-color: lightblue;
+        }
+      
     </style>
     <title>Tabelas 4</title>
 </head>
 <body>
     <table>
-        <caption>Cadastro</caption>
+        <colgroup>
+            <col class="Nome">
+            <col class="Idade">
+            <col class="Sexo">
+            <col class="Profissão">
+        </colgroup>
+        <caption><strong>Cadastro</strong></caption>
         <THEAD>
             <tr>
-                <th>Nome</th>
-                <th>Idade</th>
-                <th>Sexo</th>
-                <th>Profissão</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Profissão</th>
             </tr>
         </THEAD>
         <TBODY>
