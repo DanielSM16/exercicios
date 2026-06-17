@@ -3,15 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    iframe {
+        width: 200px;
+        height: 150px;
+    }
     <title>Iframe</title>
 </head>
 <body>
     <h1>Testando o uso de Iframes</h1>
     <p>
         Acessando o site do 
-        <iframe src="https://www.cursoemvideo.com" frameborder="0">
+
+        <!--tamanho padrao 300x150-->
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" height="200" scolling="no">
+            <a href="https://www.cursoemvideo.com" target="_blank">Curso em Vídeo</a>
 
         </iframe> para aprender a programar
+    </p>
+    <p>
+        O site em portugues de Stardew Valley <iframe src="https://pt.stardewvalleywiki.com/Stardew_Valley_Wiki" frameborder="0" height="150" width="400" scolling="no">
+            <a href="https://pt.stardewvalleywiki.com/Stardew_Valley_Wiki" target="_blank">Stardew Valley Wiki</a>
+        </iframe>é bem legal
     </p>
 
 </body>
