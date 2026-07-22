@@ -7,24 +7,48 @@
 }
 
 body, html {
-
-    background-color: white;
+    background-color: rgb(76, 64, 162);
 }
 
 header{
 
-    background-color: white;
+    background-color: rgb(76, 64, 162);
 }
 
 header, h1{
-    padding: 10px;
     text-align: center;
 }
 
-main{
+#menu {
+    background-color: darkslategrey;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+#menu:hover {
+
+    background-color: white;
+    color: black;
+}
+
+#Lista{
+    display: none;
+    width: 100vw;
+    background-color: rgb(19, 36, 61);
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10;
+}
+
+#artigo{
     display: block;
     width: 90vw;
-    background-color: azure;
+    background-color: rgb(19, 36, 61);
     margin: auto;
     margin-top: 10px;
     padding: 10px;
@@ -40,17 +64,18 @@ main > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(5, 140, 140);
-    color: brown;
-    border-top: 2px solid gray;
+    background-color: rgba(43, 11, 94, 0.72);
+    color: rgb(0, 0, 0);
+    border-top: 1px solid gray;
 }
 
 main > ul > li > a:hover {
-    background-color: chartreuse;
+    background-color: rgb(47, 0, 255);
 }
 
 article > h2 {
     padding-bottom: 20px;
+    text-align: center;
 }
 
 article > p {
